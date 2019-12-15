@@ -39,10 +39,6 @@
       height: 100vh;
     }
   }
-  
-  
-  
-
   .top-nav-collapse {
     background-color: #563e91 !important;
   }
@@ -69,7 +65,7 @@
   li:hover{
 	  border-bottom:1px solid #4A148C;
   }
-  li{
+  .text-nav{
 	  position:relative;
 	  margin-right:22px;
   }
@@ -80,7 +76,9 @@ margin-right:auto !important;
 }	
 }
 
-
+.purple-gradient{
+	margin-left:43px;
+}
 
 
 
