@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+ 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light white">
+
+  <div class="container"> 
+
+    
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+      <!-- Right -->
+      <ul class="navbar-nav nav-flex-icons">
+        <li class="nav-item">
+          <a href="https://www.facebook.com/mdbootstrap" class="nav-link waves-effect" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li> 
+        <li class="nav-item">
+          <a href="https://twitter.com/MDBootstrap" class="nav-link waves-effect" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        
+		<li class="nav-item">
+			<a href="" class="nav-link waves-effect">
+				<i class="fab fa-instagram"></i>
+			</a>
+		</li>
+		
+      </ul>
+      <!-- Left -->
+      <ul class="navbar-nav mr-auto" style="margin-right:7px !important;">
+        <li class="nav-item">
+          <a class="nav-link waves-effect" href="" target="_blank">خانه</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-effect" href="" target="_blank">خدمات</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-effect" href="" target="_blank">تماس با ما</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-effect" href="" target="_blank">پروژه های ما</a>
+        </li>
+      </ul>
+
+
+			
+    </div>
+	<a class="navbar-brand" href="#" >
+     <button class="btn purple-gradient" style="border-radius:40px;">حساب کاربری</button>
+    </a>
+
+  </div>
+
+</nav>
+
+
+
+  <!-- Navbar -->
+
+
+
+
+
+<!---endheader--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
+  <script>
+  $('#play').on('click', function (e) {
+  e.preventDefault();
+  $("#player")[0].src += "?autoplay=1";
+  $('#player').show();
+  $('#video-cover').hide();
+})
+$('#modal1').on('hidden.bs.modal', function (e) {
+  $('#modal1 iframe').attr("src", $("#modal1 iframe").attr("src"));
+});
+  </script>
+</body>
+
+</html>

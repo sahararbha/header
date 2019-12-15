@@ -1,0 +1,93 @@
+ @font-face {
+    font-family: 'yekan';
+    src: url('../font/font/Yekan/Yekan-modified.woff') format('woff') ,
+    url('../font/font/Yekan/Yekan-modified.ttf') format('truetype'),
+    url('../font/font/Yekan/Yekan-modified.eot') format('eot'),
+    url('../font/font/Yekan/Yekan-modified.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'yekan';
+    src: url('../font/font/Yekan/Yekan-modified.woff') format('woff') ,
+    url('../font/font/Yekan/Yekan-modified.ttf') format('truetype'),
+    url('../font/font/Yekan/Yekan-modified.eot') format('eot'),
+    url('../font/font/Yekan/Yekan-modified.svg') format('svg');
+    font-weight: bold;
+    font-style: bold;
+}
+ body{
+	 font-family:'yekan';
+	 direction:rtl;
+	 background-color:#eee;
+ }
+ nav{
+	 height:auto;
+ }
+ html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
+ 
+  @media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+      height: 100vh;
+    }
+  }
+  
+  
+  
+
+  .top-nav-collapse {
+    background-color: #563e91 !important;
+  }
+
+  .navbar:not(.top-nav-collapse) {
+    background: #ffffff !important;
+	height: 70px;
+	text-align: right!important;
+  }
+
+  @media (max-width: 991px) {
+   .navbar:not(.top-nav-collapse) {
+    background: #ffffff !important;
+	height: auto!important;
+   }
+  }
+  
+  .rgba-gradient {
+    background: linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  }
+  i{
+	  color:#4A148C;
+  } 
+  li:hover{
+	  border-bottom:1px solid #4A148C;
+  }
+  li{
+	  position:relative;
+	  margin-right:22px;
+  }
+@media (min-width: 768px){
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+	
+margin-right:auto !important;	
+}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
